@@ -1,0 +1,15 @@
+header{
+    background-color: bisque;
+    font-size: 32;
+    font-style: italic;
+}
+
+article {
+    background-color: aquamarine;
+    font-weight: bold;
+}
+
+footer {
+    background-color: rgb(156, 127, 127);
+    font: bolder;
+}
