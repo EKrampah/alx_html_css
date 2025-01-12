@@ -1,83 +1,93 @@
 @font-face {
-    font-family: "Source-sans-pro";
-    src: url(/source-sans-pro/SourceSansPro-Regular.otf) format("truetype");
-    font-weight: normal;
+  font-family: "Source-sans-pro";
+  src: url(/source-sans-pro/SourceSansPro-Regular.otf) format("truetype");
+  font-weight: normal;
 }
-
-body {
-    height: 1400px;
-    width: 100%;
-    background-image: url(/images/headphones_hero_1.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+* {
+  margin: 0px;
+  font-size: 16px;
+  padding: 0px;
+  font-family: "Source-sans-pro";
 }
-
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 50px 20px;
+  display: flex;
+  justify-content: space-between;
 }
 nav .logo {
-    margin: 40px;
+  margin: 20px 25px;
+}
+
+.z {
+  display: flex;
+  vertical-align: center;
+}
+.headf {
+  color: white;
+  line-height: 1em;
+  font-size: 1.3em;
+  margin-top: 37px;
 }
 
 ul {
-    margin: 40px;
-    display: flex;
+  margin: 20px 0px;
+  display: flex;
+}
+header {
+  height: 800px;
+  width: 100%;
+  background-image: url(/headphones/images/headphones_hero_1.jpg);
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the image */
+  position: absolute;
 }
 
 header ul li a {
-    list-style: none;
-    text-decoration: none;
-    color: #fff;
-    margin: 10px 20px;
-    font-size: 32px;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  margin: 10px 20px;
+  font-size: 1.2em;
+}
+header ul li a:hover {
+  color: #ff6565;
 }
 
 .page1 {
-    margin-top: 240px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
+  color: white;
+  position: relative;
 
-.section1 {
-    margin-top: 80px;
-}
-
-.section1 h1 {
-    font-size: 50px;
-}
-
-.section1 p {
-    font-size: 30px;
+  top: 90%;
+  left: -50%;
+  transform: translate(50%, 90%);
+  text-align: center;
 }
 
 .section1 .btn {
-    margin-top: 80px;
-    margin-bottom: 40px;
-    background: red;
-    padding: 30px 30px;
-    color: #fff;
-    border-radius: 60px;
-    align-items: center;
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-    cursor: pointer;
-    transition: 0.4s ease;
-}
-.section2 {
-    margin-top: 80px;
-    font-size: 30px;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;   
+  margin-top: 40px;
+  border: none;
+  margin-bottom: 20px;
+  background: #ff6565;
+  padding: 15px;
+  color: #fff;
+  border-radius: 60px;
+  align-items: center;
+
+  font-weight: bold;
 }
 
-.btn:hover {
-    background: #fff;
-    color: #ff7200;
+.section1 h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.white-space {
+  display: flex;
+  margin-top: 500px;
+  margin-left: 0px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
